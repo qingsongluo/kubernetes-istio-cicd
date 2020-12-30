@@ -272,3 +272,4 @@ cat samples/bookinfo/networking/virtual-service-reviews-v2.yaml
 kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-v2.yaml
 # When you visit the Product Page you will see mainly V1 responses, but every 1/10 should be V2. The order isn't 100% even, but given a large enough distribution of traffic, the ratios will even out.
 # The Grafana dashboards should also indicate that all traffic is going to Reviews Service v2.
+asdf
